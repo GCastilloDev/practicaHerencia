@@ -12,15 +12,15 @@ package herencia;
  */
 public class SeleccionFutbol {
     
-    private Integer id;
-    private String nombre;
-    private String apellidos;
-    private Integer edad;
+    protected Integer id;
+    protected String nombre;
+    protected String apellidos;
+    protected Integer edad;
     
     // Atributos propios
-    private Boolean disponibleParaViajar;
-    private String genero;
-    private Integer numeroPolizaSeguroGMM;
+    protected Boolean disponibleParaViajar;
+    protected String genero;
+    protected Integer numeroPolizaSeguroGMM;
 
     public SeleccionFutbol(Integer id, String nombre, String apellidos, Integer edad, Boolean disponibleParaViajar, String genero, Integer numeroPolizaSeguroGMM) {
         this.id = id;
